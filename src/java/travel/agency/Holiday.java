@@ -25,12 +25,24 @@ public class Holiday {
         return destination;
     }
 
+    public void setDestination(String destination) {
+        this.destination = destination;
+    }
+
     public LocalDate getDeparture() {
         return departure;
     }
 
+    public void setDeparture(LocalDate departure) {
+        this.departure = departure;
+    }
+
     public LocalDate getArrival() {
         return arrival;
+    }
+
+    public void setArrival(LocalDate arrival) {
+        this.arrival = arrival;
     }
 
     public long estimate(){
